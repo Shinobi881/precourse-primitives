@@ -1,66 +1,44 @@
 /*! strings v0.0.0 - MIT license */
 'use strict';
 
-// THIS FUNCTION IS AN EXAMPLE, DO NOT TOUCH
-var stringExample = function () {
-   // return the string 'this is just an example'
-   return 'this is just an example';
-}
-
+//////////////////////////////////
 // YOUR CODE BELOW, VARIABLES ARE NOT ALLOWED FOR ANY PROBLEMS
-// THE POINT HERE IS TO IMPROVE YOUR UNDERSTANDING OF STRINGS AS A RAW DATA TYPE
-var stringIndex = function () {
-  // return the 3 letter of the string below
-  'the dream of Californication'
-  return 'the dream of Californication'[2];
+// THE POINT HERE IS TO IMPROVE YOUR UNDERSTANDING OF BOOLEANS AS A RAW DATA TYPE
+//////////////////////////////////
 
+var booleanChecker = function () {
+   // return any boolean value
+   return false;
 }
 
-var stringMaker = function () {
-  // bridge and return the two strings below using string concatenation
- return 'California, rest in peace...' + ' Simutaneous release...';
-  
-}
-
-var stringSpecialChar = function () {
-  // fix an return the string below
-    // 'can't stop, won't stop';
-  return 'can\'t stop, won\'t stop'
-}
-
-var stringMultiLine = function () {
-  // Format and return the string so it will print on 3 lines
-  // This must all be done in one set of quotes
-  'string on line 1, string on line 2, string on line 3';
-  return 'string on line 1,\n string on line 2,\n string on line 3';
-  
+var numberEquality = function () {
+  // Fix return to return true
+    // conssole.log(4234 === 07080);
+  return 4234 === 07080
 }
 
 var stringEquality = function () {
-  // return, whether or not the string below is of a string data type. 
-
-  // Example: return [special operator] 'string from below';
-  '35234235^%@^%@^%$@^$%@^#';
-  
-  return typeof '35234235^%@^%@^%$@^$%@^#';
+  // Fix the strings so the functions returns true
+  return 'guilty feet' === 'GUILTY FEET';
 }
 
-var stringCount = function () {
-  // Return the number of characters in the string below
-  'You can blame it on rain.';
-  return 'You can blame it on rain.'.length;
+var typeChecker = function () {
+  // Fix the return statement to return true
+  return typeof 435435345 === 'boolean';
 }
 
-
-var stringHelper1 = function () {
-  // Use a method on the string below to return the word 'wounded'
-  'Take time with a wounded hand';
-  return 'Take time with a wounded hand'.substring(17, 24);
+var booleanFalsy = function () {
+  // Change the values in the parentheses so else statement runs  
+  if (true) {
+    return 'I\'m not supposed to be here!';
+  } else {
+    return 'Here I am, send me an angel!';
+  }
 }
 
-var stringHelper2 = function () {
-  // Use a method to convert and return the string below into all uppercase letters
-  'Where ya going with tomorrow?';
-
-  return 'Where ya going with tomorrow?'.toUpperCase();
+var booleanTruthy = function () {
+  // Look up the 'negation' operator and apply it to make the body of the if statement pass
+  if (null) {
+    return 'This is not so null afterall';
+  }
 }
